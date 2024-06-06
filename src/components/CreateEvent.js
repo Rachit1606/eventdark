@@ -14,7 +14,7 @@ const CreateEvent = () => {
         const base64Image = reader.result.split(',')[1];
         const eventDetails = { title, description, image: base64Image };
         const response = await createEvent(eventDetails);
-        window.alert('Event Created'); 
+        window.alert('Event Created ' + response); 
         setTitle('');
         setDescription('');
         setImage(null);
