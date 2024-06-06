@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// Replace with your API Gateway URL
 const API_URL = 'https://tpvwwu4vxh.execute-api.us-east-1.amazonaws.com/prod';
 
 export const createEvent = async (eventDetails) => {

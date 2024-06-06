@@ -1,4 +1,4 @@
-// UpdateEvent.js
+
 import React, { useState, useEffect } from 'react';
 import { updateEvent, fetchAllEvents } from '../apiservice';
 import { useLocation } from 'react-router-dom';
